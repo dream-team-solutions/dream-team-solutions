@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dream Team Solutions | Tech Consulting</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: #f5f7fa;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(90deg, #0f2027, #2c5364);
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin: 0.5rem 0 0 0;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        nav {
+            margin: 2rem 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 700;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .services {
+            max-width: 900px;
+            margin: 3rem auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 2rem;
+        }
+        .service-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(44,83,100,0.08);
+            padding: 2rem 1.5rem;
+            text-align: center;
+            transition: box-shadow 0.2s;
+        }
+        .service-card:hover {
+            box-shadow: 0 4px 16px rgba(44,83,100,0.15);
+        }
+        .service-card h3 {
+            margin: 0.5rem 0 1rem 0;
+            font-size: 1.3rem;
+            color: #2c5364;
+        }
+        .service-card p {
+            margin: 0;
+            font-size: 1rem;
+            color: #444;
+        }
+        .contact {
+            background: #2c5364;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        .contact a {
+            color: #ffd700;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #0f2027;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dream Team Solutions</h1>
+        <p>Your Partner in Cloud, Data Engineering, App & Web Development, and More</p>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="services" class="services">
+        <div class="service-card">
+            <h3>Cloud Solutions</h3>
+            <p>Design, migration, and optimization of cloud infrastructure for scalability and security.</p>
+        </div>
+        <div class="service-card">
+            <h3>Data Engineering</h3>
+            <p>Build robust data pipelines, ETL processes, and analytics platforms to unlock insights.</p>
+        </div>
+        <div class="service-card">
+            <h3>App Development</h3>
+            <p>Custom mobile and desktop applications tailored to your business needs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Web Development</h3>
+            <p>Modern, responsive websites and web apps that engage your customers.</p>
+        </div>
+        <div class="service-card">
+            <h3>Consulting & More</h3>
+            <p>Architecture reviews, DevOps, automation, and ongoing tech strategy support.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's Build Your Next Solution</h2>
+        <p>Email us at <a href="mailto:info@dreamteamsolutions.com">info@dreamteamsolutions.com</a></p>
+    </section>
+
+    <footer>
+        &copy; 2024 Dream Team Solutions. All rights reserved.
+    </footer>
+</body>
+</html>
